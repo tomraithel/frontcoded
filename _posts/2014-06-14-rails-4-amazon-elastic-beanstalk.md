@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Delopy and Run a Rails 4 App on AWS Elastic Beanstalk"
+title: "Deploy and Run a Rails 4 App on AWS Elastic Beanstalk"
 
 tags: rails ruby amazon aws
 image: beanstalk.png
