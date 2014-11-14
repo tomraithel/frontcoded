@@ -1,0 +1,15 @@
+# Site settings
+title: frontcoded.com
+email: hello@tomraithel.de
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I´m Tom. This is my blog about various web development topics.
+  I mainly write this blog as a wiki for myself but if you find something
+  useful for you - even better :)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.frontcoded.com" # the base hostname & protocol for your site
+twitter_username: tomraithel
+github_username:  tomraithel
+permalink: /:title.html
+
+# Build settings
+markdown: kramdown
