@@ -3,7 +3,7 @@ layout: post
 title: "Step-by-step: Setting up rails on Amazon EC2 Ubuntu instance"
 
 tags: rails amazon ec2 ubuntu
-image: 'rails-on-ec2-ubuntu.png'
+image: /assets/article_images/rails.jpg
 ---
 
 If you want to set up a rails application on an amazon´s *EC2 Instance*, this might be something for you. Please note, that this instruction only covers the installation of rails and all its dependencies. If you want to use rails for production, you should also install an apache.

@@ -3,7 +3,7 @@ layout: post
 title: "Generate random passwords with javascript"
 
 tags: javascript password generator
-image: passwords.png
+image: /assets/article_images/passwords.png
 ---
 
 Nothing special - just a simple function that generates a random password in JavaScript.

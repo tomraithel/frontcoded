@@ -3,7 +3,7 @@ layout: post
 title: "Google Maps v3: Zoom map to fit a set of markers"
 
 tags: google maps
-image: google-maps.png
+image: /assets/article_images/google-maps.jpg
 ---
 
 <!--more-->

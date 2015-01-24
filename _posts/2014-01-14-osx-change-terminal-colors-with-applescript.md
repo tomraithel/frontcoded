@@ -3,7 +3,7 @@ layout: post
 title: "Change terminal colors in OSX with apple script"
 
 tags: terminal bash applescript
-image: terminal.png
+image: /assets/article_images/terminal.jpg
 ---
 
 Sometimes it is useful to have your terminal tabs in different colors. This helps a lot for example, when you are working

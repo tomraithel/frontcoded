@@ -3,7 +3,7 @@ layout: post
 title: "OSX: Start Sublime Text 2 from the commandline"
 
 tags: sublime terminal commandline
-image: sublime.png
+image: /assets/article_images/sublime.jpg
 ---
 
 I often used `vi` to edit my local text files from the commandline. But actually `vi` is not my favourite choice for editing text. 

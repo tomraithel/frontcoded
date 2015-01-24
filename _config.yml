@@ -1,15 +1,55 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
 # Site settings
-title: frontcoded.com
+title: "frontcoded.com"
+description: > # this means to ignore newlines until "email:"
+   A dumping ground for development stuff
+
 email: hello@tomraithel.de
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, I´m Tom. This is my blog about various web development topics.
-  I mainly write this blog as a wiki for myself but if you find something
-  useful for you - even better :)
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.frontcoded.com" # the base hostname & protocol for your site
-twitter_username: tomraithel
-github_username:  tomraithel
+#blog logo
+logo: "/assets/images/frontcoded-logo.png"
+# blog cover
+cover: "/assets/images/cover.png"
+
+name: 'Tom Raithel'
+author: 'Tom Raithel'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://frontcoded.com" # the base hostname & protocol for your site
+baseurl: ""
+
 permalink: /:title.html
 
-# Build settings
-markdown: kramdown
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/tomraithel
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/tomraithel
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

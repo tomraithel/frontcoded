@@ -3,7 +3,7 @@ layout: post
 title: "Create unique ids in javascript"
 
 tags: javascript ids unique
-image: id.png
+image: /assets/article_images/id.png
 ---
 
 Need to create HTML `id` attributes dynamically? Use this simple helper function.

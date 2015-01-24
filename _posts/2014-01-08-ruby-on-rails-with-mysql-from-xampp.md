@@ -3,7 +3,7 @@ layout: post
 title: "Run ruby on rails together with XAMPPs mysql socket on mac"
 
 tags: xampp ruby rails mysql
-image: xampp.png
+image: /assets/article_images/xampp.jpg
 ---
 
 If you want to run rails on your local machine and you already have XAMPP installed, then you propably want to use your mysql

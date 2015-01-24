@@ -3,7 +3,6 @@ layout: post
 title: "Create and apply MySql dumps via command line"
 
 tags: mysql dumps sql
-image: mysql.png
 ---
 
 Database dumps are handy when you want to create backups or restore an old database state in case something went wrong 

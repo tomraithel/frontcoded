@@ -3,7 +3,6 @@ layout: post
 title: "Deploy and Run a Rails 4 App on AWS Elastic Beanstalk"
 
 tags: rails ruby amazon aws
-image: beanstalk.png
 ---
 
 Once a rails 4 application is set up correctly on amazons elastic beanstalk,
@@ -11,6 +10,13 @@ there is nothing easier than updating this application. But for me there was
 a bit of trouble to get things starting. Maybe this article is useful for you too.
 
 <!--more-->
+
+> Note:
+  This walkthrough is based on Elastic Beanstalk Command Line Interface 2.6.
+  In October 2014 Amazon released a new version (3.x) which is slightly different.
+  However, basic steps and requirements for setting up the rails application
+  are still the same.
+
 
 ## EB Setup
 

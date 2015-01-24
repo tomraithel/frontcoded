@@ -3,7 +3,7 @@ layout: post
 title: "Manage your AWS RDS database with Sequel Pro on Mac"
 
 tags: rds aws sql database
-image: sequel-pro.png
+image: /assets/article_images/sequel-pro.jpg
 ---
 
 Sequel Pro is a really nice app for managing databases. With this technique you can remotely
@@ -36,6 +36,6 @@ In Sequel Pro, just create a connection with the port from above. The RDS userna
 > You can check the RDS username and enpoint in your AWS console by navigating to
 Services > Elastic Beanstalk > myapp > Configuration > Settings-Icon on Card 'RDS'
 
-![SequelPro]({{ BASE_PATH }}/images/medium/2014-06-14-rds.png)
+![SequelPro]({{ BASE_PATH }}/assets/article_images/2014-06-14-rds.png)
 
 That´s it!

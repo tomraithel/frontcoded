@@ -3,7 +3,7 @@ layout: post
 title: "Running Rails on Amazon EC2 with Apache (Ubuntu)"
 
 tags: rails amazon ec2 apache
-image: 'phusion-passenger.png'
+image: /assets/article_images/phusion-passenger.png
 ---
 
 Setting up an *Apache* server to work with rails applications on an Amazon EC2 server is quite simple. In this blog post i assume, that rails and all dependecies are already installed on your machine. If that is not the case, please see [How to set up rails on ubuntu EC2]({{BASE_PATH}}/rails-on-amazon-ec2-ubuntu.html).

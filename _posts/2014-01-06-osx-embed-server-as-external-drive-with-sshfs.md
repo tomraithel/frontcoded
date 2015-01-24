@@ -3,7 +3,6 @@ layout: post
 title: "Embed a server as external drive with SSHFS on OSX"
 
 tags: ssh sshfs osx
-image: drive.png
 ---
 
 Sometimes you need to edit files on a remote server via Secure Shell (SSH). In OSX you can easily mount a remote server to a virtual drive.

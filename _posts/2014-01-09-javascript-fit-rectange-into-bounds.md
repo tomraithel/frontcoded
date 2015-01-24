@@ -3,7 +3,7 @@ layout: post
 title: "Javascript: Resize a rectangle to fit into the bounds of another rectangle with proper ratio"
 
 tags: javascript resize bounds
-image: fit-in-bounds.png
+image: /assets/article_images/fit-in-bounds.png
 ---
 
 Sometimes you have an image or something else that has to be resized to fit into the bounds of another object.
