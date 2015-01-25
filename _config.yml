@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "frontcoded.com"
 description: > # this means to ignore newlines until "email:"
-   A dumping ground for development stuff
+   A dumping ground for web development stuff
 
 email: hello@tomraithel.de
 #blog logo
