@@ -43,7 +43,7 @@ With that information, it´s easy to set up a cancellable request:
 			// Everything fine and not cancelled
 		}).
 		error(function(data, status, headers, config) {
-			if (data === null && status === 0) {
+			if(data.status === 0) {
 				// Request cancelled
 			}
 			else {
@@ -62,7 +62,7 @@ a finished request.
 
 `canceller.resolve()` will evoke the `error` callback of your request promise. **One Note here:** in order
 to determine if request was cancelled and did not fail because of any other error, I check for
-`data === null && status === 0`. Another option would be to set a flag that can be checked in the error
+`data.status === 0`. Another option would be to set a flag that can be checked in the error
 callback. So far, the upper solution worked well for me but I don´t know if there are
-some edge cases where a *normal error* matches the `data === null && status === 0` condition.
+some edge cases where a *normal error* matches the `data.status === 0` condition.
 Please let me know, if you know a cooler way to check a cancellation.
