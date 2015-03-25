@@ -2,7 +2,7 @@
 layout: post
 title: "JavaScript: Split an array into chunks of a given size"
 
-tags: javascript snippets
+tags: javascript
 ---
 
 Here is a super simple snippet to create a grouped version of an array. I use this sometimes to prepare
