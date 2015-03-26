@@ -75,3 +75,21 @@ Sometimes you need a plain new database with no tables in it before you can appl
 
     mysql -u [user] -p -e 'drop database `dbname`;'
     mysql -u [user] -p -e 'create database `dbname`;'
+
+
+Encoding Problems?
+------------------
+
+If you experience encoding problems while importing / exporting dumps (and I´ sure at some point you will),
+maybe this tips might help:
+
+Tip 1: Instead of `mysqldump -u [user] -p [dbname] > dump.sql` use the `-r` option:
+
+	mysqldump -u [user] -p [dbname] -r dump.sql
+
+Tip 2: While importing, set the encoding flag:
+
+	mysql -u root -p [dbname] --default-character-set=utf8 < dump.sql
+
+Good luck guys!
+
